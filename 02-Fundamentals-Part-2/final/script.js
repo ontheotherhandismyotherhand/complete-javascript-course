@@ -2,7 +2,7 @@
 
 /*
 ///////////////////////////////////////
-// Activating Strict Mode
+//  ctivating Strict Mode
 let hasDriversLicense = false;
 const passTest = true;
 
