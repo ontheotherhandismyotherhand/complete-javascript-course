@@ -64,7 +64,7 @@ function whoWeighsMore() {
     // mark.calcBMI();
     // john.calcBMI();
 
-    weighsMore = mark.calcBMI() > john.calcBMI() ? weighsMore = `${mark.firstName} ${mark.lastName}'s BMI (${mark.bmi}) is higher than ${john.firstName} ${john.lastName}'s BMI (${john.bmi}).` : `${john.firstName} ${john.lastName}'s BMI (${john.bmi}) is higher than ${mark.firstName} ${mark.lastName}'s BMI (${mark.bmi}).`;
+    weighsMore = mark.calcBMI() > john.calcBMI() ? weighsMore = `${mark.firstName} ${mark.lastName}'s BMI (${mark.bmi}) is higher than ${john.firstName} ${john.lastName}'s BMI (${john.bmi}).👏🏾` : `${john.firstName} ${john.lastName}'s BMI (${john.bmi}) is higher than ${mark.firstName} ${mark.lastName}'s BMI (${mark.bmi}).👏🏾`;
 
 
 
