@@ -44,4 +44,6 @@ console.log(bills);
 console.log(tips);
 console.log(totalvalue);
 console.log(message);
+console.log(message);
+
 
