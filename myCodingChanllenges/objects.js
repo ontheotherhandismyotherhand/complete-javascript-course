@@ -18,7 +18,18 @@ const densum = {
 
     calcAge: function () {
         //console.log(this);
-        return 2024 - this.birthYear;
+        this.age = 2024 - this.birthYear;
+
+        return this.age;
+    },
+
+    getSummary: function () {
+
+        // const dl = this.hasDriversLicense ? 'does' : 'does not';
+
+        this.message = `${this.firstName} is a ${this.calcAge()}-year old ${this.job} and he ${this.hasDriversLicense ? 'does' : 'does not'} have driver's license.`
+
+        return this.message;
     }
 
 };
@@ -38,8 +49,16 @@ console.log(densum['last' + nameKey]);
 console.log(`${densum.firstName} has ${densum.friends.length} friends and his best friend is ${densum.friends[1]}.`)
 
 console.log(densum.calcAge());
-// console.log(densum['calcAge'](densum.birthYear));
+
+console.log(densum.age);
+//console.log(densum['calcAge'](densum.birthYear));
 console.log(densum['calcAge']());
 
 
-console.log(densum.calcAge());
+console.log(densum.age);
+
+console.log(densum.getSummary());
+console.log(densum.message);
+
+
+// const getDL = (this.hasDriversLicense) => hasDriversLicense === true ? getDL = `does  have a driver's license` : getDL = `does not have a driver's license`;
