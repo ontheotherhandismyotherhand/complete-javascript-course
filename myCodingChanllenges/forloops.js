@@ -120,7 +120,21 @@ for (let i = 0; i < densumArray.length; i++) {
     console.log(densumArray[i], typeof densumArray[i]);
 
 
+}
 
+for (let i = densumArray.length - 1; i >= 0; i--) {
+
+    console.log(i, densumArray[i]);
 
 }
+
+for (let exercise = 1; exercise < 4; exercise++) {
+
+    console.log(`------ Starting exercise ${exercise}`)
+    for (let rep = 1; rep <= 5; rep++) {
+        console.log(`lifting weight ${rep}`);
+    }
+
+}
+
 
