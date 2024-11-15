@@ -132,9 +132,28 @@ for (let exercise = 1; exercise < 4; exercise++) {
 
     console.log(`------ Starting exercise ${exercise}`)
     for (let rep = 1; rep <= 5; rep++) {
-        console.log(`lifting weight ${rep}`);
+        console.log(` Exercise ${exercise} lifting weight ${rep}`);
     }
 
 }
 
+let rep = 1;
+while (rep <= 10) {
+    console.log(`This is a while loop`);
+    console.log(` Exercise lifting weight ${rep}`);
+    rep++;
 
+}
+
+let dice = Math.trunc(Math.random() * 6) + 1;
+console.log(dice);
+
+while (dice !== 6) {
+
+    console.log(`dice value is ${dice}`);
+    dice = Math.trunc(Math.random() * 6) + 1;
+    if (dice === 6) {
+
+        console.log(`dice is ${dice} loop ending!`);
+    }
+}
